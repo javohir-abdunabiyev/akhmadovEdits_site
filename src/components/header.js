@@ -43,5 +43,4 @@ export function pagesHeader(place) {
     div_for_logo_nav.append(logo, nav_div)
     main_div.append(div_for_logo_nav, btn_a)
     place.append(main_div)
-
 }

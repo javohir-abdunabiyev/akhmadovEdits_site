@@ -19,6 +19,6 @@ const swiper = new Swiper('.swiper-container', {
   },
   mousewheel: {
     forceToAxis: true, // Прокручивает только по вертикали
-    sensitivity: 3, // Чувствительность прокрутки (можно изменить для лучшего опыта)
+    sensitivity: 1, // Чувствительность прокрутки (можно изменить для лучшего опыта)
   },
 });

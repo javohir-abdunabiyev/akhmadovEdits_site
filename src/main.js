@@ -1,6 +1,5 @@
 import { pagesHeader } from "./components/header";
-import Swiper from 'swiper';
-import 'swiper/swiper-bundle.css';
+
 
 const header = document.querySelector(".header")
 
@@ -8,8 +7,8 @@ pagesHeader(header)
 
 
 const swiper = new Swiper('.swiper-container', {
-  direction: 'vertical',  // Вертикальная прокрутка
-  loop: true,  // Циклический свайп
+  direction: 'vertical',
+  loop: true,
   pagination: {
     el: '.swiper-pagination',
     clickable: true,

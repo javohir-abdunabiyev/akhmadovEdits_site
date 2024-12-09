@@ -9,7 +9,7 @@ export function pagesHeader(place) {
 
 
     const logo = document.createElement("img")
-    logo.src = "/src/imgs/logo.png"
+    logo.src = "/imgs/logo.png"
     logo.classList.add("logo")
 
     const nav_div = document.createElement("div")

@@ -1,4 +1,6 @@
 import { pagesHeader } from "./components/header";
+import Swiper from 'swiper';
+import 'swiper/swiper-bundle.css';
 
 const header = document.querySelector(".header")
 
